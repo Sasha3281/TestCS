@@ -1,0 +1,13 @@
+D:\Programs\TestCS1\TestCS1\bin\Debug\TestCS1.exe
+D:\Programs\TestCS1\TestCS1\bin\Debug\TestCS1.pdb
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\MainWindow.baml
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\MainWindow.g.cs
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\App.g.cs
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\TestCS1_MarkupCompile.cache
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\TestCS1.g.resources
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\TestCS1.Properties.Resources.resources
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\TestCS1.exe
+D:\Programs\TestCS1\TestCS1\obj\x86\Debug\TestCS1.pdb

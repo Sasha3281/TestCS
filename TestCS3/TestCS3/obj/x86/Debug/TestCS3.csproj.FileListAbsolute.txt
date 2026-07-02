@@ -1,0 +1,5 @@
+D:\Programs\TestCS3\TestCS3\bin\Debug\TestCS3.exe
+D:\Programs\TestCS3\TestCS3\bin\Debug\TestCS3.pdb
+D:\Programs\TestCS3\TestCS3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Programs\TestCS3\TestCS3\obj\x86\Debug\TestCS3.exe
+D:\Programs\TestCS3\TestCS3\obj\x86\Debug\TestCS3.pdb

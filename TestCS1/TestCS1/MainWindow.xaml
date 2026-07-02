@@ -1,0 +1,45 @@
+﻿    <Window x:Class="TestCS1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TestCS1" Height="200" Width="600"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+         
+    <Window.Resources>
+        <Style x:Key="TBoxStyle" TargetType="TextBox">
+            <Setter Property="Width" Value="400" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="TBlockStyle" TargetType="TextBlock">
+            <Setter Property="Width" Value="400" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="120" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <TextBox Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Name="txtOriginal" Style="{StaticResource TBoxStyle}" />
+        <TextBlock Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" Name="tbCompressed" Style="{StaticResource TBlockStyle}" FontWeight="Bold"/>
+        <TextBlock Grid.Column="0" Grid.Row="4" Grid.RowSpan="2" Name="tbDecompressed" Style="{StaticResource TBlockStyle}" />
+        
+        <Button Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Name="btnCompress" Content="Compress" Click="btnCompress_Click" Style="{StaticResource ButtonStyle}" />
+        <Button Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" Name="btnDecompress" Content="Decompress" Click="btnDecompress_Click" Style="{StaticResource ButtonStyle}" />
+        <Button Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Name="btnClear" Content="Clear" Click="btnClear_Click" Style="{StaticResource ButtonStyle}" />
+    </Grid>
+</Window>
